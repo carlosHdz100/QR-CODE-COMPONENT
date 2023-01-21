@@ -1,0 +1,43 @@
+:root {
+    --white: #fff;
+    --Lightgray: hsl(212, 45%, 89%);
+    --Grayishblue: hsl(220, 15%, 55%);
+    --Darkblue: hsl(218, 44%, 22%);
+    font-family: 'Outfit', sans-serif;
+
+}
+
+body {
+    background-color: var(--Lightgray);
+}
+
+
+.card {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 15px;
+    background-color: var(--white);
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    border-radius: 8px;
+
+}
+
+.img-qr {
+    width: 400px;
+    border-radius: 8px;
+}
+
+.text {
+    font-weight: 700;
+    font-size: 1.9em;
+}
+
+.text2 {
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
